@@ -1,0 +1,14 @@
+module.tx_pagesoverview{
+	view {
+		# cat=module.tx_pagesoverview_pagesoverview/file; type=string; label=Path to template root (BE)
+		templateRootPath = EXT:pagesoverview/Resources/Private/Backend/Templates/
+		# cat=module.tx_pagesoverview_pagesoverview/file; type=string; label=Path to template partials (BE)
+		partialRootPath = EXT:pagesoverview/Resources/Private/Backend/Partials/
+		# cat=module.tx_pagesoverview_pagesoverview/file; type=string; label=Path to template layouts (BE)
+		layoutRootPath = EXT:pagesoverview/Resources/Private/Backend/Layouts/
+	}
+	persistence {
+		# cat=module.tx_pagesoverview_pagesoverview//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

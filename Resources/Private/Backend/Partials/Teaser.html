@@ -1,0 +1,9 @@
+{namespace m=PagesOverview\PagesOverview\ViewHelpers}
+
+<div class="grid-item">
+        <m:backendLink parameters="edit[pages][{teaserPage.uid}]=edit&columnsOnly=title,_CONTROL_,_CLIPBOARD_,abstract,media&route=%2Frecord%2Fedit">
+        <b>{teaserPage.title}</b>
+        <p><f:format.crop maxCharacters="100" append=" [...]">{teaserPage.abstract}</f:format.crop>
+        </p>
+        </m:backendLink>
+</div>

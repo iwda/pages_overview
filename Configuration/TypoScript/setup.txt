@@ -1,0 +1,17 @@
+module.tx_pagesoverview {
+	persistence {
+		storagePid = 0
+		classes {
+			PagesOverview\Pagesoverview\Domain\Model\TeaserPage {
+				mapping {
+					tableName = pages
+				}
+			}
+		}
+	}
+	view {
+		templateRootPaths.0 = {$module.tx_pagesoverview.view.templateRootPath}
+		partialRootPaths.0 = {$module.tx_pagesoverview.view.partialRootPath}
+		layoutRootPaths.0 = {$module.tx_pagesoverview.view.layoutRootPath}
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "name": "pagesoverview/pagesoverview",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PagesOverview\\Pagesoverview\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PagesOverview\\Pagesoverview\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "pagesoverview": "self.version",
+        "typo3-ter/pagesoverview": "self.version"
+    }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-10-09T20:48:03Z" product-name="pagesoverview">
+		<header/>
+		<body>
+			<trans-unit id="tx_pagesoverview_domain_model_test">
+				<source>Test</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

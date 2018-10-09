@@ -1,0 +1,14 @@
+{namespace m=PagesOverview\PagesOverview\ViewHelpers}
+
+<f:layout name="Default" />
+
+<f:section name="content">
+<h1>All title in database</h1>
+
+<div class="tx_pagesoverview" >
+        <f:for each="{alltitles}" as="titles">
+                <p>uid: {titles.uid}; title: {titles.title}; timestamp: {titles.tstamp}</p>
+        </f:for>
+</div>
+
+</f:section>
